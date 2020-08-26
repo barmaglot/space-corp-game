@@ -31,3 +31,4 @@ In the begining I also thought to implement backend part for storing game progre
 5. **Performance** optimization.
 6. **Game Settings** like reset progress and so on.
 7. **Sounds**.
+8. **Balance** updates. Currently game is not balanced at all :)
