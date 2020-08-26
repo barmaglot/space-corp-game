@@ -10,8 +10,10 @@ const ManagerSelection = observer(() => {
     const managers: Array<ReactNode> = [];
 
     gameStore.managers.forEach(item => {
-        const alreadyAssigned = gameStore.businesses.find(model => model.manager === item);
-        if (item !== assignedManager && !alreadyAssigned) {
+        const alreadyAssigned = gameStore.businesses.find(model => {
+            return model.manager?.name === item.name;
+        });
+        if (item.name !== assignedManager?.name && !alreadyAssigned) {
             managers.push(<Manager key={item.name} model={item} />);
         }
     });
