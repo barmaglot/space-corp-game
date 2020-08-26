@@ -29,3 +29,5 @@ In the begining I also thought to implement backend part for storing game progre
 3. **Localization**.
 4. **Events**. Original idea was to create random events that fire from time to time and affect businesses, in a Monopoly manner. E.g. "Your Transport ships are broken, you need $1Million to fix!", and after that you can't earn income from your business. Managers should have additional parameter "Risk management" wich influences event probability.
 5. **Performance** optimization.
+6. **Game Settings** like reset progress and so on.
+7. **Sounds**.
