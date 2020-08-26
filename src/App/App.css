@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Avenixel';
+    src: url('./assets/fonts/Avenixel-Regular.ttf') format('opentype');
+}
+
+.App {
+    width: 800px;
+    height: 600px;
+    background-color: #000;
+    border: 1px solid #222;
+    color: #222;
+    overflow: hidden;
+    position: relative;
+    font-family: 'Avenixel', 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+}
+
+/* Reset everything to default */
+.App * {
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+img {
+    image-rendering: pixelated;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.brdr {
+    border: 2px solid #6e5e51;
+    box-shadow: inset 2px 2px #ffffff7a;
+}
+
+.brdr-inset {
+    border: 2px solid #6e5e51;
+    box-shadow: inset 2px 2px #00000023;
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}

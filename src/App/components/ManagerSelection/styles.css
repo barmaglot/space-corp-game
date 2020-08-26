@@ -1,0 +1,25 @@
+.managers-container {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.managers-title {
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 6px;
+    color: #000;
+}
+
+.managers-list {
+    height: 100%;
+    padding: 10px;
+    overflow: auto;
+    position: relative;
+}
+
+.managers-assigned {
+    margin-bottom: 2px;
+}

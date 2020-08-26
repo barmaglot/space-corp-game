@@ -1,0 +1,45 @@
+.manager-container {
+    margin-bottom: 4px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    color: #222;
+    position: relative;
+    background-color: #e6e6e6;
+}
+
+.manager-icon {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    margin-right: 20px;
+    background-color: rgb(212, 156, 103);
+    background: linear-gradient(0deg, rgb(212, 156, 103) 0%, rgb(139, 99, 53) 100%);
+}
+
+.manager-icon img {
+    width: 60px;
+    height: 60px;
+}
+
+.manager-stats li {
+    list-style: none;
+}
+
+.manager-name {
+    font-size: 22px;
+    line-height: 20px;
+    color: #000;
+}
+
+.manager-buy {
+    margin-left: auto;
+    width: 140px;
+    height: 55px;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.manager-assigned {
+    background-color: #e0dccd;
+}

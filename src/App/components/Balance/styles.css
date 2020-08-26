@@ -1,0 +1,12 @@
+.balance {
+    background-color: #e0dfdd;
+    padding: 10px;
+    z-index: 1;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-size: 32px;
+    padding: 0 20px;
+    height: 50px;
+    line-height: 46px;
+}

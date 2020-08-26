@@ -1,0 +1,27 @@
+.btn {
+    background-color: #e3be4d;
+    border: 2px solid #6e5e51;
+    color: #222;
+    border-radius: 1px;
+    padding: 5px 10px;
+    box-shadow: inset 2px 2px #e2e178;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.btn:hover {
+    background-color: #f3d169;
+}
+
+.btn:active {
+    background-color: #caaa4a;
+    box-shadow: inset -2px -2px #c3a33f;
+}
+
+.btn.disabled {
+    color: #444;
+    box-shadow: none;
+    background-color: #b6b2a6;
+    pointer-events: none;
+    border: 2px solid #696662;
+}
