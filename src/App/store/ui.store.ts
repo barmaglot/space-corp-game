@@ -20,11 +20,10 @@ class UIStore {
     }
 
     openGreetingsPopup(idleSeconds: number, collected: number) {
-        if (idleSeconds > config.POPUP_IDLE_SECONDS) {
+        if (idleSeconds > config.POPUP_IDLE_SECONDS && collected > 0) {
             this.timeWereOut = secondsToTime(idleSeconds);
             this.collectedSinceLastVisit = collected;
             this.showGreetingsPopup = true;
-            console.log(this.showGreetingsPopup)
         }
     }
 
